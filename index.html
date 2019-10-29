@@ -21,6 +21,38 @@
         <section id="about">
             <p>This code generates a random password of a user-defined length and uses the Math object as well as DOM manipulation methods.</p>
         </section>
+
+        <section id="code">
+            <p>This is the JavaScript code that performs the task</p>
+            <code>
+                <pre>
+    // get the form element
+    const form = document.getElementById("form");
+    // when form is submitted
+    form.addEventListener("submit", function(event) {
+        // prevent page refresh
+        event.preventDefault();
+        // get user-defined length
+        const length = this.number.value;
+        // get output element
+        const output = document.getElementById("result");
+        
+        // create an empty string
+        let string = "";
+        
+        // for user-defined amount of times...
+        for (let i = 0; i < length; i++) {
+            // create a random character
+            const charCode = Math.floor((Math.random() * 43) + 48);
+            // add it to the string
+            string = string + String.fromCharCode(charCode);
+        }
+        
+        // output the created string to the browser
+        output.textContent = string;
+    });</pre>
+            </code>
+        </section>
     </main>
     
     <footer>
