@@ -16,12 +16,30 @@ h1 {
 }
 
 /* main */
+code {
+    display: block;
+    margin: 0;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 0;
+    background-color: #000000;
+    line-height: 20px;
+    word-wrap: break-word;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: #FFFFFF;
+}
+
 section {
     padding: 10px 50px;
 }
 
 #about {
     background-color: #AAEE29;
+}
+
+#code {
+    background-color: #EEAA29;
 }
 
 /* footer */
