@@ -42,6 +42,34 @@ section {
     background-color: #EEAA29;
 }
 
+#number {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-bottom: black solid 1px;
+    min-width: 50%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 0.9em;
+    color: #FFFFFF;
+}
+
+#submit {
+    display: block;
+    margin: 20px auto;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 10px 20px;
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	font-size: 0.8em;
+}
+
+#task {
+    background-color: #CC2286;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 /* footer */
 footer {
     padding: 80px 20px;
