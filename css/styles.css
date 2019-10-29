@@ -23,6 +23,7 @@ code {
     margin: 0;
     border: black solid 1px;
     border-radius: 5px;
+    overflow: scroll;
     padding: 0;
     background-color: #000000;
     line-height: 20px;
