@@ -1,5 +1,33 @@
+/* header */
 h1 {
     margin: 0;
     padding: 150px 0;
     text-align: center;
+}
+
+/* footer */
+footer {
+    padding: 80px 20px;
+    background-color: #29AAEE;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00FF00;
+}
+
+li {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
