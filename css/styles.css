@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 /* general */
+::-webkit-scrollbar {
+	display: none;
+}
+
 body, html {
     margin: 0;
     padding: 0;
