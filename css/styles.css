@@ -15,6 +15,15 @@ h1 {
     text-align: center;
 }
 
+/* main */
+section {
+    padding: 10px 50px;
+}
+
+#about {
+    background-color: #AAEE29;
+}
+
 /* footer */
 footer {
     padding: 80px 20px;
